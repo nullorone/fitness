@@ -1,0 +1,9 @@
+.wrapper {
+    height: 100%;
+    
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}

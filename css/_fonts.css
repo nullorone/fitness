@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,700&subset=cyrillic");
+@font-face {
+  font-family: 'Gora Free', serif;
+  src: url("../fonts/Gora-Free.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 400;
+}

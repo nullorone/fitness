@@ -1,0 +1,28 @@
+//Gora Free font
+@font-face {
+    font-family: 'Gora Free', serif;
+    src: url('../fonts/Gora-Free.ttf') format('ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin gora($style: regular) {
+    
+    @if $style == regular {
+        font-family: 'Gora Free', serif;
+    }
+}
+
+//Open Sans font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700&subset=cyrillic');
+
+@mixin open($style: light) {
+    @if $style == light {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+    }
+    @if $style == bold {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+    }
+}
